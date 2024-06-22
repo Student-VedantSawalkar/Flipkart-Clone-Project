@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Lobster&display=swap');
+:root {
+    --main-bg-color: #ccced4;
+  }
+*{
+    padding: 0;
+    margin: 0;
+}
+
+footer
+{
+    height : 12vh;
+    background-color:var(--main-bg-color);
+    color:white;
+    font-family: 'Lobster', sans-serif;
+}
+header{
+    
+    background-color:var(--main-bg-color) ;
+    font-family: 'Lobster', sans-serif;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 12px;
+}
+nav ul li a{
+    color: rgb(13, 14, 87);
+    text-decoration: none;
+    
+}
+nav ul li a:hover{
+    color: #647dc9;
+    font-style: bold;
+    
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav 
+{
+    display: flex;
+    
+}
+.logo
+{
+    display: flex;
+    align-items: center;
+}
+.logo img 
+{
+    width: 120px;
+    padding: 0 25px;
+}
+.search
+{
+    display: flex;
+    align-items: center;
+}
+.search input
+{
+    width: 30vw;
+    height: 23px;
+    border-radius: 5px;
+    margin: 0 2px;
+    padding: 0 12px;
+}
+.btn
+{
+    margin: 10px;
+    height: 25px;
+    cursor: pointer;
+    
+    
+}
+.search .btn{
+    font-family: 'Lobster', sans-serif;
+    font-weight: 900; 
+}
+.btn a:hover
+{
+    color: cadetblue;
+}
+.slider
+{
+    width: 80vw;
+    margin: 12px auto;
+    overflow: hidden;
+}
+.card
+{
+    max-width: 91vw;
+    margin:37px auto ;
+    font-family: 'Lobster', sans-serif;
+    
+}
+.card h2
+{
+    font-family: 'Lobster', sans-serif;
+}
+.cards{
+    display: flex;
+    overflow: hidden;
+}
+.card-items
+{
+    /* width: 150px; */
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+.container
+{
+    min-height: calc(100vh - 58px - 12vh);
+}
